@@ -7,7 +7,7 @@ This project is a collection of various machine learning problems solved from sc
 The project is organized into directories, each representing a step in the roadmap of ML/AI problems:
 
 ### Active
-1. `0_binary_classification`: Binary classification problems, such as predicting whether an email is spam or not.
+1. `a_binary_classification`: Binary classification problem on the example of synthetic data-based predictive maintenance problem.
 
 ### To Be Done
 2. `1_multiclass_classification`: Multiclass classification problems, such as digit recognition.

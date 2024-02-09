@@ -1,0 +1,27 @@
+# dataset
+input_dim: 8
+dataset_path: ml_zero_dawn/_datasets/0_predictive_maintenance
+dataset_name: predictive_maintenance.csv
+preprocessed_path: ml_zero_dawn/_datasets/0_predictive_maintenance
+print_stats: False 
+batch_size: 200
+
+# optimizer
+epochs: 5000
+default_lr: 0.001
+warmup_iters: 500
+decay_lr_iters: 4500
+min_lr: 0.000000001
+
+# evaluation
+eval_interval: 1000
+eval_iters: 20
+
+# hardware
+device_type: 'cuda' # cpu or cuda
+device: 'cuda' # cpu or cuda
+data_type: 'float32'
+dmax_flops: 10.87e12 # NV 1660 Ti: float16
+
+# model path
+model_path: ml_zero_dawn/_models/0_binary_classification

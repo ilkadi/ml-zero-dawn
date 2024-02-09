@@ -160,7 +160,6 @@ cython_debug/
 #.idea/
 
 
-#bin and pt files (prepared text data and model weights)
-train.bin
-validate.bin
+# generated data and models
 *.pkl
+_models/
